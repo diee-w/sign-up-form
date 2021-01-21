@@ -14,6 +14,8 @@ body {
     align-items: center;
 }
 
+/* Diseño de formulario de envío */
+
 .form {
     display: block;
     background-color: white;
