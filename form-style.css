@@ -8,24 +8,25 @@
 
 body {
     display: flex;
-    background: url(images/3.jpg);
+    background: url(image/3.jpg);
     background-size: cover;
     height: 100vh;
+    align-items: center;
 }
 
 .form {
     display: block;
     background-color: white;
-    height: 402px;
-    padding: 20px;
+    /*height: 402px;*/
+    padding: 20px 25px;
     border-radius: 25px;
     margin: auto;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 span {
     display: block;
-    font-family: 'Raleway', sans-serif;
     font-size: 3em;
     font-weight: 700;
     color: black;
@@ -35,6 +36,44 @@ span {
 .form__input {
     background-color: #cfcfcf;
     border-radius: 25px;
-    padding: 5px;
+    align-items: center;
+    padding: 8px;
     margin: 10px;
+}
+
+.form__input i { 
+    color: #686868; 
+    font-size: 24px;
+    align-items: center;
+}
+
+.form__input input {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1;
+    background: none;
+    outline: none;   
+    border: none;
+    margin: 5px;
+}
+
+.form__checkbox {
+    display: block;
+    align-items: center;
+    margin: 8px;
+}
+
+.form__checkbox label {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.btn-submit {
+    font-size: 1em;
+    color: white;
+    background-color: rgb(0, 195, 230);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 20px 20px;
 }
